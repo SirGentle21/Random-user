@@ -13,20 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +20,46 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.userRow{
+  background-color: red !important;
+}
+
+.userRow:hover {
+  background-color: rgb(99, 207, 240) !important;
+}
+.userCard{
+  margin: 2rem 22rem;
+  text-align: center;
+}
+.userCard button{
+  width: 15%;
+  float: left;
+  border: 0;
+  background-color: inherit;
+}
+
+
+#userImage {
+  width: 160px;
+  height: 160px;
+  margin: 1rem auto;
+  border-radius: 50px;
+}
+.profileCells{
+  font-weight: bold !important;
+}
+.randomUser{
+  padding: 3rem ;
+}
+.paginate{
+  margin-bottom: 1rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .userCard{
+    margin: 2rem 0rem;
+    
   }
 }
